@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vendedor - BynaryShop</title>
+    <link rel="stylesheet" href="../assets/css/vendedor.css" />
+  </head>
+  <body>
+    <h1>Bienvenido, Vendedor</h1>
+    <button id="cerrar-sesion">Cerrar Sesión</button>
+
+    <form id="formulario-producto">
+      <input
+        type="text"
+        id="nombre"
+        placeholder="Nombre del producto"
+        required
+      />
+      <input type="number" id="precio" placeholder="Precio" required />
+      <input type="file" id="imagen" accept="image/*" required />
+      <button type="submit">Añadir Producto</button>
+    </form>
+
+    <div id="lista-productos">
+      <h2>Mis Productos Cargados</h2>
+      <ul></ul>
+    </div>
+
+    <script src="../assets/js/vendedor.js"></script>
+  </body>
+</html>

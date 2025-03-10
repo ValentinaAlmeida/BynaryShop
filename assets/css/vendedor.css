@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#cerrar-sesion {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+#cerrar-sesion:hover {
+  background-color: #cc0000;
+}
+
+#formulario-producto {
+  margin-bottom: 20px;
+}
+
+#formulario-producto input,
+#formulario-producto button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#formulario-producto button {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+#formulario-producto button:hover {
+  background-color: #45a049;
+}
+
+#lista-productos ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#lista-productos li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#lista-productos img {
+  max-width: 50px;
+  height: auto;
+  margin-right: 10px;
+}

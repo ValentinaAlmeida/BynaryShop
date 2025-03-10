@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.productos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.producto h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.producto p {
+  margin: 5px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.producto button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.producto button:hover {
+  background-color: #45a049;
+}
+
+.carrito {
+  margin-top: 20px;
+  border-top: 2px solid #333;
+  padding-top: 20px;
+}
+
+.carrito h2 {
+  margin-bottom: 10px;
+}
+
+.carrito ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.carrito li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.carrito button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.carrito button:hover {
+  background-color: #cc0000;
+}
+
+#cerrar-sesion {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
